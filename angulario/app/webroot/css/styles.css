@@ -1,0 +1,118 @@
+.error-message{
+	color: red;
+}
+
+.active.page-link{
+	color: black;
+	background-color: #007bff;
+}
+
+.screen{
+	background-color:gray;
+}
+
+#prof-image{
+	width: 60px;
+	height: 60px;
+}
+
+#welcome{
+	display: inline !important;
+	margin-bottom: 10px;
+  padding-left: 20px;
+}
+.user-list{
+	margin-top: 40px;
+  background-color: #d2c5c5;
+  color:black;
+}
+.chat-conversation{
+    margin-top: 40px;
+    height: 378px;
+    background-color: white;
+    overflow-y: scroll;
+    color:black;
+}
+
+.message {
+  background-color:#66BB6A;
+  border-radius:10px; 
+  padding-top: 0px;
+  margin-bottom: 2px;
+}
+
+.friend-list {
+  	list-style: none;
+	margin-left: -40px;
+}
+
+.friend-list li {
+  border-bottom: 1px solid #eee;
+  background-color: #008080;
+}
+
+.friend-list li a img {
+  float: left;
+  width: 45px;
+  height: 45px;
+  margin-right: 0px;
+}
+
+.friend-list li a {
+  position: relative;
+  display: block;
+  padding: 10px;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+}
+
+.friend-list li.active a {
+  background-color: #5ea247;
+}
+
+.friend-list li a .friend-name, 
+.friend-list li a .friend-name:hover {
+  color: white;
+}
+
+.friend-list li a .last-message {
+  width: 65%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.friend-list li a .time {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+}
+
+small, .small {
+  font-size: 85%;
+}
+
+.friend-list li a .chat-alert {
+  position: absolute;
+  right: 8px;
+  top: 27px;
+  font-size: 10px;
+  padding: 3px 5px;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: 0;
+}
+
+.chat-time{
+  margin-bottom: 2px;
+}
+
+p.chat{
+  width: 9em;
+  word-wrap: break-word;
+}

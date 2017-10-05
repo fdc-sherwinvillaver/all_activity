@@ -1,0 +1,8 @@
+.error-message{
+	color: red;
+}
+
+.active.page-link{
+	color: black;
+	background-color: #007bff;
+}
